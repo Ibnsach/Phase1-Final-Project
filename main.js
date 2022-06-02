@@ -1,2 +1,2 @@
 let accountName = 'PayCollect'
-function payCollect = ''
+function payCollect 
