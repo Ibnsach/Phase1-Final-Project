@@ -42,6 +42,40 @@ body{
 }
 #food-container{
     background: yellow;
+    overflow: scroll;
+    overflow: hidden;
+    box-sizing:content-box;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background: whitesmoke;
+    z-index: 1
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#header .address{
+    font-size: 20px;
+}
+.your-address{
+    border: 1px solid indianred;
+    color: indianred;
+    padding: 5px 10px;;
+    border-radius: 5px;
+    width: 135px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.add-box i{
+    font-size: 20px;
 }
 #cart{
     background: pink;
