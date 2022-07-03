@@ -17,7 +17,7 @@ body{
 }
 /* menu design */
 #menu{
-    background: violet;
+    background: whitesmoke;
 }
 
 .brand-logo{
@@ -41,7 +41,7 @@ body{
     background: rgb(250, 212,218);
 }
 #food-container{
-    background: yellow;
+    background: silver;
     overflow: scroll;
     overflow: hidden;
     box-sizing:content-box;
@@ -58,7 +58,7 @@ body{
     z-index: 1
 }
 ::-webkit-scrollbar{
-    display: none;
+    display:none;
 }
 #header .address{
     font-size: 20px;
@@ -77,6 +77,39 @@ body{
 .add-box i{
     font-size: 20px;
 }
+.util i, user i{
+    font-size: 18px;
+    margin: 0 16px;
+    border: 1px solid crimson;
+    padding: 8px 16px;
+    color: crimson;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.util i:active{
+    color: white;
+    background: red;
+}
+.food-items{
+
+}
+#fries,#soupy,#chicken,#local{
+    margin-top: 40px;
+}
+#local #item-card,#chicken #item-card{
+    background: rgb(218,253,18);
+}
+#soupy #item-card,#fries #item-card{
+    background: rgb(221,243,243);
+}
+#category-name, .item-menu{
+    margin: 10px;
+    font-size: 35px;
+    color: coral;
+}
+#item-card{
+
+}
 #cart{
-    background: pink;
+    background: cyan;
 }
