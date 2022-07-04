@@ -17,9 +17,8 @@ body{
 }
 /* menu design */
 #menu{
-    background: whitesmoke;
+    background: gainsboro;
 }
-
 .brand-logo{
     padding: 0 30px;
 }
@@ -41,10 +40,9 @@ body{
     background: rgb(250, 212,218);
 }
 #food-container{
-    background: silver;
+    background: whitesmoke;
     overflow: scroll;
-    overflow: hidden;
-    box-sizing:content-box;
+    box-sizing: content-box;
 }
 #header{
     display: flex;
@@ -58,10 +56,10 @@ body{
     z-index: 1
 }
 ::-webkit-scrollbar{
-    display:none;
+    display: none;    
 }
 #header .address{
-    font-size: 20px;
+    font-size: 15px;
 }
 .your-address{
     border: 1px solid indianred;
@@ -91,7 +89,7 @@ body{
     background: red;
 }
 .food-items{
-
+ 
 }
 #fries,#soupy,#chicken,#local{
     margin-top: 40px;
@@ -164,5 +162,5 @@ body{
     font-size: 10px;
 }
 #cart{
-    background: cyan;
+    background: lavender;
 }
